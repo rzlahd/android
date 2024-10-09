@@ -19,3 +19,8 @@ public void InterstitialAd_load(){
       }
     });
 }
+
+public static void showAd(){
+if (mInterstitialAd != null) {
+  mInterstitialAd.show(MyActivity.this);
+}
